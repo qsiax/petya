@@ -1,0 +1,26 @@
+.home {
+    min-height: 100vh;
+    &__container {
+        min-height: 100vh; 
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;  
+        min-height: 100vh; 
+    }
+
+    &__heading {
+        font-family: $font-s;
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 122px;
+        text-align: center;
+        text-transform: uppercase;
+        span {
+            color: $primary-color;
+        }
+    }
+}

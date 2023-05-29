@@ -1,0 +1,27 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    &__container {
+        overflow: visible;
+    }
+
+    &__body {
+        margin-top: 60px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        li a {
+            position: relative;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+        }
+    }
+
+}

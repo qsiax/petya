@@ -1,0 +1,23 @@
+.education {
+    min-height: 100vh;
+    &__container {
+        min-height: 100vh;
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    &__heading {
+        margin-bottom: 100px;
+    }
+
+    &__text {
+        text-align: center;
+    }
+}

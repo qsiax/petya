@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Days One Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Days One Regular"), url("../source/font/DaysOne-Regular.woff") format("woff");
+}
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a, button {
+  cursor: revert;
+}
+
+ol, ul, menu {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input, textarea {
+  -webkit-user-select: auto;
+}
+
+textarea {
+  white-space: revert;
+}
+
+meter {
+  -webkit-appearance: revert;
+  -moz-appearance: revert;
+       appearance: revert;
+}
+
+::-webkit-input-placeholder {
+  color: unset;
+}
+
+::-moz-placeholder {
+  color: unset;
+}
+
+:-ms-input-placeholder {
+  color: unset;
+}
+
+::-ms-input-placeholder {
+  color: unset;
+}
+
+::placeholder {
+  color: unset;
+}
+
+:where([hidden]) {
+  display: none;
+}
+
+:where([contenteditable]:not([contenteditable=false])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+  -webkit-user-select: auto;
+}
+
+:where([draggable=true]) {
+  -webkit-user-drag: element;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 122px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Days One Regular";
+  color: #935CFF;
+}
+
+.text {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+.text span {
+  color: #DBFF45;
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #1B1B1B;
+  font-family: "Inter", sans-serif;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+}
+html a,
+body a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+html li,
+body li {
+  list-style: none;
+}
+
+._container {
+  max-width: 1066px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.header__container {
+  overflow: visible;
+}
+.header__body {
+  margin-top: 60px;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__list li a {
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.home {
+  min-height: 100vh;
+}
+.home__container {
+  min-height: 100vh;
+}
+.home__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+.home__heading {
+  font-family: "Days One Regular";
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 122px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.home__heading span {
+  color: #935CFF;
+}
+
+.me {
+  min-height: 100vh;
+}
+.me__container {
+  min-height: 100vh;
+}
+.me__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+.me__heading {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.me__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.me__block {
+  margin-right: 132px;
+  margin-top: 100px;
+}
+.me__text:first-child {
+  margin-bottom: 40px;
+}
+.me__image {
+  width: 328px;
+  height: 516px;
+  background: url(../source/about.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.health {
+  min-height: 100vh;
+}
+.health__container {
+  min-height: 100vh;
+}
+.health__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+.health__heading {
+  margin-bottom: 100px;
+}
+.health__text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.health__text:last-child {
+  margin-bottom: 0;
+}
+
+.education {
+  min-height: 100vh;
+}
+.education__container {
+  min-height: 100vh;
+}
+.education__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+.education__heading {
+  margin-bottom: 100px;
+}
+.education__text {
+  text-align: center;
+}

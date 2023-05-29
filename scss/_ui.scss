@@ -1,0 +1,28 @@
+$text: #FFFFFF;
+$primary-color: #935CFF;
+$secondary-color: #DBFF45;
+$main-color: #1B1B1B;
+$transition: all .5s ease;
+$font: 'Inter', sans-serif;
+$font-s: 'Days One Regular';
+
+.heading {
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 122px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font-s;
+    color: $primary-color;
+}
+
+.text {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    span {
+        color: $secondary-color;
+        font-weight: 600;
+    }
+}
